@@ -72,7 +72,7 @@ nav ul li:first-child {
 .hero {
     position: relative;
     height: 500px;
-    background-image: url('../img/liam-arning-xlavPfMtg8Q-unsplash.jpg');
+    background-image: url('../Pasan-Online/liam-arning-xlavPfMtg8Q-unsplash.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -96,7 +96,7 @@ nav ul li:first-child {
 
 /* Hero Section Styles */
 .hero1 {
-    background-image: url('../img/1000_F_508019135_8uIkAugPV1FsFIj9nzJSZmCC9wCc2bhf.jpg');
+    background-image: url('../Pasan-Online/1000_F_508019135_8uIkAugPV1FsFIj9nzJSZmCC9wCc2bhf.jpg');
     background-position: center;
     height: 250px;
     width: 100%;
