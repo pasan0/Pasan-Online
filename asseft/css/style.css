@@ -1,0 +1,119 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 15px;
+    background: linear-gradient(to right, rgb(100, 3, 71), rgb(0, 0, 0));
+    color: white;
+    box-shadow: 0 2px 4px rgba(200, 243, 43, 0.2);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    height: 500px;
+    background-image: url('../img/liam-arning-xlavPfMtg8Q-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.hero-heading {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(196, 221, 144);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 420px;
+}
+
+
+
+/* Hero Section Styles */
+.hero1 {
+    background-image: url('../img/1000_F_508019135_8uIkAugPV1FsFIj9nzJSZmCC9wCc2bhf.jpg');
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.dp {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    color: rgb(153, 201, 201);
+}
